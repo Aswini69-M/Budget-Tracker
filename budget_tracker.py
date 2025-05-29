@@ -2,7 +2,7 @@ import json
 import os
 
 class ExpenseTracker:
-    def _init(self):  # Corrected from _init to _init_
+    def __init__(self):# Corrected from _init to _init_
         # Load previous data or initialize an empty list if no file exists
         self.transactions = self.load_data()
 
